@@ -124,6 +124,7 @@ module project(SW,KEY,CLOCK_50,LEDR,LEDG);
 			Xa: begin
 					length = 5'b00100;
 					M = 4'b1001;
+				end
 			Ya: begin
 					length = 5'b00100;
 					M = 4'b1011;
@@ -132,8 +133,6 @@ module project(SW,KEY,CLOCK_50,LEDR,LEDG);
 					length = 5'b00100;
 					M = 4'b1100;
 				end
-				end
-
 		endcase
 	end	//letter_selection
 	
